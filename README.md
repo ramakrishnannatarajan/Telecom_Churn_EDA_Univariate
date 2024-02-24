@@ -1,4 +1,4 @@
-#Telecom Customer Churn Analysis
+*Telecom Customer Churn Analysis
 
 ##Business Understanding and Overview
 In the telecom industry, preventing customer churn is crucial for long-term success. This data analysis focuses on understanding customer attrition by conducting Exploratory Data Analysis (EDA) using Python. The goal is to uncover patterns and insights that guide informed decision-making.
