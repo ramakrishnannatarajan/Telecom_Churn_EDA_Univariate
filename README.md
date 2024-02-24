@@ -14,7 +14,7 @@ Initial findings show an overall churn rate of 26.58%, serving as our base targe
 
 #### Handling Null Values:
 - 11 null records in "Total Charges" (0.15% of data) were dropped, resulting in 7032 records.
-
+![Missing Values](Data/Images/Percentage_Missing_Values.png)
 ### Data Cleaning
 
 #### Tenure Grouping for Visualization:
@@ -28,15 +28,32 @@ Initial findings show an overall churn rate of 26.58%, serving as our base targe
 - Converted categorical values to numerical using get_dummies.
 - Explored correlations between numerical features and "Churn" column.
 - Identified attributes associated with higher churn rates.
+  
+![Initial Findings](Data/Images/CvsAllData_Corr.png)
 
-## Univariate Analysis Highlights
+## Univariate Categorical Analysis Highlights
 
-- Customers with attributes like month-to-month contracts, no online security or tech support, and high monthly charges exhibit higher churn rates.
-- Senior citizens, customers without partners or dependents, and those with Fiber Optic Internet Service are more likely to churn.
-- Different contract types and payment methods influence churn rates.
-- Absence of add-on services like online security, online backup, device protection, and tech support increases churn likelihood.
-- Customers without streaming services are more likely to churn, but interestingly, those with streaming services like TV and movies also show significant churn rates.
-- Monthly and total charges exhibit clear correlations with churn.
+- Customers with attributes like month-to-month contracts (42.71%), no online security or tech support (41.65%) exhibit higher churn.
+![Month to Month](Data/Images/CvsContract.png)
+![Onine Security](Data/Images/CvsOnlineSecurity.png)
+![Tech Support](Data/Images/CvsTechSupport.png)
+
+### Other important criteria are:
+
+- Senior citizens (41.68%), customers without partners or dependents (32.98% and 31.28%, respectively), and those with Fiber Optic Internet Service (41.89%) are more likely to churn.
+- Different contract types and payment methods influence churn. For example, month-to-month contracts (42.71%) and less than one-year contracts (47.68%) show higher churn.
+- The absence of add-on services like online security (41.78%), online backup (39.94%), device protection (39.14%), and tech support (41.65%) increases the likelihood of churn.
+- Customers without streaming services are likelier to churn, but interestingly, those with streaming services like TV (30.11%) and movies (29.95%) also show significant churn.
+  
+## Univariate Numerical Analysis Highlights
+
+- Monthly charges exhibit a clear correlation, indicating that the higher the charges, the more likely customers are to churn.
+  ![Monthly Charges](Data/Images/CvsMonthly_Charges.png)
+- Total charges also show a correlation, suggesting that lower total charges are associated with a higher likelihood of churn.
+  ![Total Charges](Data/Images/CvsTotal_Charges.png)
+  
+- As expected, customers with lower tenures and lower monthly charges are more likely to churn, as confirmed by the data.
+
 
 ## Next Steps Planned
 
