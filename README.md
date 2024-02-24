@@ -6,7 +6,7 @@ In the telecom industry, preventing customer churn is crucial for long-term succ
 
 ### Target Variable
 Initial findings show an overall churn rate of 26.58%, serving as our base target value for future comparisons.
-![Overall Churn](path/to/churn_rate_graph.png)
+![Overall Churn](Data/Images/Churn_Overall.png)
 ### Missing Data Analysis
 
 #### Data Type Correction:
