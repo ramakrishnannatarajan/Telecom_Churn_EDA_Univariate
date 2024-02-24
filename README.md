@@ -33,7 +33,7 @@ Initial findings show an overall churn rate of 26.58%, serving as our base targe
 
 ## Univariate Categorical Analysis Highlights
 
-- Customers with attributes like month-to-month contracts (42.71%), no online security or tech support (41.65%) exhibit higher churn.
+- Customers with attributes like month-to-month contracts (42.71%), no online security (41.78%), no tech support (41.65%) exhibit higher churn.
 ![Month to Month](Data/Images/CvsContract.png)
 ![Onine Security](Data/Images/CvsOnlineSecurity.png)
 ![Tech Support](Data/Images/CvsTechSupport.png)
