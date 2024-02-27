@@ -55,7 +55,7 @@ Initial findings show an overall churn rate of 26.58%, serving as our base targe
 - Total charges also show a correlation, suggesting that lower total charges are associated with a higher likelihood of churn.
   ![Total Charges](Data/Images/CvsTotal_Charges.png)
   
-- As expected, customers with lower tenures and lower monthly charges are more likely to churn, as confirmed by the data.
+- As expected, customers with lower tenures and higher monthly charges are more likely to churn, as confirmed by the data.
 
 
 ## Next Steps Planned
